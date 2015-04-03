@@ -8,10 +8,6 @@ There is significant strategy involved in the game, and the number of possible g
 
 Go is a very difficlt game for computers to play well and professional players still beat the strongest AIs.
 
-### Players
-
-There are 2 players, black and white. The players place pieces (called "stones" on the board)
-
 
 ### The Board
 
@@ -24,6 +20,15 @@ The example board has 25 points. The red circle shows one particular point. The 
 Two points connected by a line segment are said to be adjacent or next to one another. The triangles are adjacent. The crosses are not adjacent.
 
 ![A go Board](https://raw.githubusercontent.com/russellwstanley/gokatatest/master/images/adjecent_demo.png)
+
+### The Stones
+
+There are 2 players, black and white. The players place pieces (called "stones" on the board)
+
+Players place stones on the points of the board. Here is a board with some stones placed on it.
+
+![A go Board](https://raw.githubusercontent.com/russellwstanley/gokatatest/master/images/board_with_stones.png)
+
 
 ### Capture
 
