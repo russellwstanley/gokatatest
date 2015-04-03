@@ -1,0 +1,26 @@
+[0m[[0minfo[0m] [0m[32mGokataSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mThe first stone to be placed[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be black[0m[0m
+[0m[[0minfo[0m] [0m[32mThe second stone placed [0m[0m
+[0m[[0minfo[0m] [0m[32m- should be white[0m[0m
+[0m[[0minfo[0m] [0m[32mA Stone[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not be placed on occupied points[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not be able to be placed outside the board area[0m[0m
+[0m[[0minfo[0m] [0m[31m- should not be able to be placed anywhere where it doesn't have any liberties[0m[0m
+[0m[[0minfo[0m] [0m[31mo o o o o o o o o[0m[0m
+[0m[[0minfo[0m] [0m[31mo o o o o o o o w[0m[0m
+[0m[[0minfo[0m] [0m[31mo o o o o o o w x[0m[0m
+[0m[[0minfo[0m] [0m[31mo o o o o o o o w[0m[0m
+[0m[[0minfo[0m] [0m[31mb b b o o o o o o[0m[0m
+[0m[[0minfo[0m] [0m[31mo o o o o o o o o[0m[0m
+[0m[[0minfo[0m] [0m[31mo o o o o o o o o[0m[0m
+[0m[[0minfo[0m] [0m[31mo o o o o o o o o[0m[0m
+[0m[[0minfo[0m] [0m[31mo o o o o o o o o *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  IllegalArgumentException was thrown during property evaluation. (GokataSpec.scala:79)[0m[0m
+[0m[[0minfo[0m] [0m[31m    Message: requirement failed[0m[0m
+[0m[[0minfo[0m] [0m[31m    Occurred at table row 8 (zero based, not counting headings), which had values ([0m[0m
+[0m[[0minfo[0m] [0m[31m      row = 1,[0m[0m
+[0m[[0minfo[0m] [0m[31m      column = 9[0m[0m
+[0m[[0minfo[0m] [0m[31m    )[0m[0m
+[0m[[0minfo[0m] [0m[32mGoBoard[0m[0m
+[0m[[0minfo[0m] [0m[32m- should correctly report duplicates[0m[0m
