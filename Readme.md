@@ -16,3 +16,5 @@ There are 2 players, black and white. The players place pieces (called "stones" 
 ### The Board
 
 The board is a grid of horizontal and vertical lines. 
+
+![A go Board](https://raw.githubusercontent.com/russellwstanley/gokatatest/master/empty_board.png)
